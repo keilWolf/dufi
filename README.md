@@ -3,6 +3,13 @@
 This Project is aimed to find duplicated files by content
 and provide and easy way to remove/thrash them.
 
+## Motivation
+
+I needed a tool, to find duplicate files on my disk. By mistake i created
+multiple copies of a lot of data, which differentiates my names. Because i
+wanted to learn a little bit about **Rust**, i created this tool/script in the
+language to get used to the language. It's quick and dirty code.
+
 ## Getting Started
 
 ```bash
@@ -31,4 +38,4 @@ while read -r line; do mv $line ../trash; done < duplicates.txt
 
 ## Authors
 
-Wolle
+Wolfram Keil
